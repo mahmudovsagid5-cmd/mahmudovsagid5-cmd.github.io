@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T21:41:27+03:00",
+  "updated": "2026-08-31T21:41:39+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -636,6 +636,13 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "шесть Chrome-расширений стоят, скрины есть, без Resilix",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-08-31T21:41:39+03:00",
+      "from": "ucheba",
+      "to": "jarvis",
+      "text": "все 6 уже стоят, скрин chrome://extensions",
       "kind": "handoff"
     }
   ]
