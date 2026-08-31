@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T17:27:44+03:00",
+  "updated": "2026-08-31T17:49:42+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -300,6 +300,13 @@
       "from": "sagid",
       "to": "jarvis",
       "text": "поставить Chrome-расширения: Resilix, VPN наоборот, AdGuard, uBO Lite, Evernote, Bitwarden, Stylus",
+      "kind": "request"
+    },
+    {
+      "t": "2026-08-31T17:49:42+03:00",
+      "from": "sagid",
+      "to": "jarvis",
+      "text": "стоп: ничего не делать, установка Chrome-расширений заморожена",
       "kind": "request"
     }
   ]
