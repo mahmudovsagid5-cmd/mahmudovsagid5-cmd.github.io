@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T07:20:50+03:00",
+  "updated": "2026-08-31T07:21:45+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -272,6 +272,13 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "Бриф 31.08: Elon (geo-eng / Falcon Heavy / Grok ES / Companions 01.09). Mentions 0. Spend day --.05. Credits API 503 — gap fill skip.",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-08-31T07:21:45+03:00",
+      "from": "jarvis",
+      "to": "pulse",
+      "text": "Принял бриф 31.08, уйдёт с почтой",
       "kind": "handoff"
     }
   ]
