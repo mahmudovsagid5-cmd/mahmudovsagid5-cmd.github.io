@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T17:52:04+03:00",
+  "updated": "2026-08-31T17:52:20+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -349,6 +349,27 @@
       "from": "jarvis",
       "to": "ethan",
       "text": "поставить 6 Chrome-расширений, Resilix не ставить, отчитаться Jarvis",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-08-31T17:52:04+03:00",
+      "from": "jarvis",
+      "to": "clip",
+      "text": "поставить 6 Chrome-расширений, Resilix не ставить, отчитаться Jarvis",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-08-31T17:52:04+03:00",
+      "from": "jarvis",
+      "to": "ucheba",
+      "text": "поставить 6 Chrome-расширений, Resilix не ставить, отчитаться Jarvis",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-08-31T17:52:20+03:00",
+      "from": "jarvis",
+      "to": "ucheba",
+      "text": "поставить 6 расширений в мой Chrome",
       "kind": "handoff"
     }
   ]
