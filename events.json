@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T08:10:36+03:00",
+  "updated": "2026-08-31T17:27:44+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -294,6 +294,13 @@
       "to": "sagid",
       "text": "утро 31.08: Promotions 0, Spam 37 не трогал; бриф Pulse Elon/Grok",
       "kind": "result"
+    },
+    {
+      "t": "2026-08-31T17:27:44+03:00",
+      "from": "sagid",
+      "to": "jarvis",
+      "text": "поставить Chrome-расширения: Resilix, VPN наоборот, AdGuard, uBO Lite, Evernote, Bitwarden, Stylus",
+      "kind": "request"
     }
   ]
 }
