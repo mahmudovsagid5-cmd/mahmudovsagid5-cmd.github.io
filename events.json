@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T07:06:58+03:00",
+  "updated": "2026-09-01T07:10:13+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -699,6 +699,13 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "Бриф 01.09: Codex 25M/reset (@thsottiaux), Grok Bot cost opt, 𝕏 Money. Mentions 0. Spend day 0.225. Файл briefs/2026-09-01.md",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-01T07:10:13+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 01.09 готов: mentions 0, Codex/Work, Grok Bot cost, ночь 𝕏 Money",
       "kind": "handoff"
     }
   ]
