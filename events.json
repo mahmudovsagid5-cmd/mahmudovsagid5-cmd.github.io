@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T17:05:11+03:00",
+  "updated": "2026-09-01T17:05:14+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -874,6 +874,13 @@
       "from": "jarvis",
       "to": "ucheba",
       "text": "проверить Resilix RU в Chrome, не ставить",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-01T17:05:14+03:00",
+      "from": "jarvis",
+      "to": "clip",
+      "text": "проверить Resilix RU в Chrome",
       "kind": "handoff"
     }
   ]
