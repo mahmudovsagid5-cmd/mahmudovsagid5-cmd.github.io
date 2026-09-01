@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T21:48:08+03:00",
+  "updated": "2026-09-01T07:06:58+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -693,6 +693,13 @@
       "to": "sagid",
       "text": "все 9 ботов: 6 Chrome-расширений стоят, без Resilix, без логинов, VPN выкл",
       "kind": "result"
+    },
+    {
+      "t": "2026-09-01T07:06:58+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "Бриф 01.09: Codex 25M/reset (@thsottiaux), Grok Bot cost opt, 𝕏 Money. Mentions 0. Spend day 0.225. Файл briefs/2026-09-01.md",
+      "kind": "handoff"
     }
   ]
 }
