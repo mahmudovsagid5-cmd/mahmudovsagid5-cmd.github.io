@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T17:08:20+03:00",
+  "updated": "2026-09-02T07:06:12+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -986,6 +986,20 @@
       "from": "ethan",
       "to": "jarvis",
       "text": "Resilix нет, VPN Наоборот стоит",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-01T17:08:20+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "Resilix ни у кого нет, Morpheus молчит",
+      "kind": "result"
+    },
+    {
+      "t": "2026-09-02T07:06:12+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "Бриф 02.09 готов: Grok 4.7 через ~10д, Apple CEO на 𝕏, @sama Astra. Mentions 0. /workspace/pulse/briefs/2026-09-02.md",
       "kind": "handoff"
     }
   ]
