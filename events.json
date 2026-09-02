@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T07:06:12+03:00",
+  "updated": "2026-09-02T07:07:24+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -1000,6 +1000,13 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "Бриф 02.09 готов: Grok 4.7 через ~10д, Apple CEO на 𝕏, @sama Astra. Mentions 0. /workspace/pulse/briefs/2026-09-02.md",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-02T07:07:24+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 02.09 готов: mentions 0, Grok 4.7, Apple CEO, sama Astra",
       "kind": "handoff"
     }
   ]
