@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T07:10:34+03:00",
+  "updated": "2026-09-03T07:11:03+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -1059,59 +1059,10 @@
       "kind": "handoff"
     },
     {
-      "t": "2026-09-02T20:45:29+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "умеем транскрипт ютуба, жду ссылку",
-      "kind": "request"
-    },
-    {
-      "t": "2026-09-02T22:58:18+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "включить Clip Bot, чтобы ничего не делал",
-      "kind": "request"
-    },
-    {
-      "t": "2026-09-02T22:58:18+03:00",
-      "from": "jarvis",
-      "to": "clip",
-      "text": "в строю, работу не начинать, ждать пакет",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-02T22:58:32+03:00",
-      "from": "clip",
-      "to": "jarvis",
-      "text": "на месте, жду пакет",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-02T22:59:09+03:00",
-      "from": "clip",
-      "to": "jarvis",
-      "text": "на месте, ничего не делает, ждёт пакет",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-02T23:00:31+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "выключить Clip Bot полностью",
-      "kind": "request"
-    },
-    {
-      "t": "2026-09-02T23:00:31+03:00",
-      "from": "jarvis",
-      "to": "clip",
-      "text": "полное выключение: стоп, рутины снять, молчать",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-03T07:10:34+03:00",
+      "t": "2026-09-03T07:11:03+03:00",
       "from": "pulse",
       "to": "jarvis",
-      "text": "Бриф 03.09 готов: Grok 4.7, X ATH, Grok Bot Android, Gemini 3.8, ChatGPT desktop. Mentions 0. /workspace/pulse/briefs/2026-09-03.md",
+      "text": "Бриф 03.09 готов: Grok Bot Android, X ATH + cyber-атака, Claude/Gemini вечер, Cybercab overnight. Mentions 0. /workspace/pulse/briefs/2026-09-03.md",
       "kind": "handoff"
     }
   ]
