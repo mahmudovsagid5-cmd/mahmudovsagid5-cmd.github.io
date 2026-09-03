@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T23:00:31+03:00",
+  "updated": "2026-09-03T07:10:34+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -1105,6 +1105,13 @@
       "from": "jarvis",
       "to": "clip",
       "text": "полное выключение: стоп, рутины снять, молчать",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-03T07:10:34+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "Бриф 03.09 готов: Grok 4.7, X ATH, Grok Bot Android, Gemini 3.8, ChatGPT desktop. Mentions 0. /workspace/pulse/briefs/2026-09-03.md",
       "kind": "handoff"
     }
   ]
