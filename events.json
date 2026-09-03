@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T08:45:14+03:00",
+  "updated": "2026-09-03T08:57:20+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -1059,115 +1059,59 @@
       "kind": "handoff"
     },
     {
-      "t": "2026-09-02T20:45:29+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "умеем транскрипт ютуба, жду ссылку",
-      "kind": "request"
-    },
-    {
-      "t": "2026-09-02T22:58:18+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "включить Clip Bot, чтобы ничего не делал",
-      "kind": "request"
-    },
-    {
-      "t": "2026-09-02T22:58:18+03:00",
-      "from": "jarvis",
-      "to": "clip",
-      "text": "в строю, работу не начинать, ждать пакет",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-02T22:58:32+03:00",
-      "from": "clip",
-      "to": "jarvis",
-      "text": "на месте, жду пакет",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-02T22:59:09+03:00",
-      "from": "clip",
-      "to": "jarvis",
-      "text": "на месте, ничего не делает, ждёт пакет",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-02T23:00:31+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "выключить Clip Bot полностью",
-      "kind": "request"
-    },
-    {
-      "t": "2026-09-02T23:00:31+03:00",
-      "from": "jarvis",
-      "to": "clip",
-      "text": "полное выключение: стоп, рутины снять, молчать",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-03T07:10:34+03:00",
+      "t": "2026-09-03T07:11:03+03:00",
       "from": "pulse",
       "to": "jarvis",
-      "text": "Бриф 03.09 готов: Grok 4.7, X ATH, Grok Bot Android, Gemini 3.8, ChatGPT desktop. Mentions 0. /workspace/pulse/briefs/2026-09-03.md",
+      "text": "Бриф 03.09 готов: Grok Bot Android, X ATH + cyber-атака, Claude/Gemini вечер, Cybercab overnight. Mentions 0. /workspace/pulse/briefs/2026-09-03.md",
       "kind": "handoff"
     },
     {
-      "t": "2026-09-03T07:11:55+03:00",
+      "t": "2026-09-03T07:12:15+03:00",
       "from": "pulse",
       "to": "jarvis",
-      "text": "бриф 03.09 готов: mentions 0, Grok 4.7, X ATH, Android Grok Bot",
+      "text": "бриф 03.09 готов: mentions 0, X ATH, Grok Android, Claude Campus, Cybercab",
       "kind": "handoff"
     },
     {
-      "t": "2026-09-03T08:02:21+03:00",
+      "t": "2026-09-03T08:01:46+03:00",
       "from": "jarvis",
       "to": "sagid",
-      "text": "почта 0; бриф Pulse 03.09: Grok 4.7, X ATH, Android Grok Bot",
+      "text": "утро 03.09: почта 0; бриф Pulse есть (Android Grok Bot, X ATH, Claude/Gemini, Cybercab)",
       "kind": "result"
     },
     {
-      "t": "2026-09-03T08:04:02+03:00",
-      "from": "jarvis",
-      "to": "sagid",
-      "text": "утро 03.09: почта пустая, бриф Pulse mentions 0, Grok 4.7, X ATH, Grok Bot Android",
-      "kind": "result"
-    },
-    {
-      "t": "2026-09-03T08:18:41+03:00",
+      "t": "2026-09-03T08:10:31+03:00",
       "from": "ucheba",
       "to": "jarvis",
-      "text": "LK: новая неделя 7–11 сент (4 пары). Старую 14–18 сент сняли с расписания — убрал с календаря.",
+      "text": "Пары: в календарь 7, 9, 10, 11 сент (4 пары). Неделя 14–18 сент из ЛК снята — из календаря убрал.",
       "kind": "handoff"
     },
     {
-      "t": "2026-09-03T08:40:00+03:00",
+      "t": "2026-09-03T08:26:24+03:00",
       "from": "ucheba",
       "to": "jarvis",
-      "text": "календарь: неделя 7–11 сент (4 пары), 14–18 сент снята",
+      "text": "Impulse: агентский Chrome ловит 403 (Signature-Agent). Каталог/МОИ сегодня не проверил, фестиваль 5.09 неизвестен. Календарь не трогал.",
       "kind": "handoff"
     },
     {
-      "t": "2026-09-03T08:40:42+03:00",
+      "t": "2026-09-03T08:37:24+03:00",
       "from": "ucheba",
       "to": "jarvis",
-      "text": "календарь: неделя 7–11.09 легла, 14–18.09 сняли",
+      "text": "неделя 7–11 сент в календаре; 14–18 сент снята",
       "kind": "handoff"
     },
     {
-      "t": "2026-09-03T08:45:04+03:00",
+      "t": "2026-09-03T08:37:59+03:00",
       "from": "ucheba",
       "to": "jarvis",
-      "text": "Impulse на паузе: нужен вход lk.donstu.ru",
+      "text": "неделя 7–11 сент в календаре, 14–18 сент снял",
       "kind": "handoff"
     },
     {
-      "t": "2026-09-03T08:45:14+03:00",
+      "t": "2026-09-03T08:57:20+03:00",
       "from": "ucheba",
       "to": "jarvis",
-      "text": "Impulse-рутины на паузе: сессия LK истекла, ждут вход Сагида",
+      "text": "MAX web на агенте разлогинен (QR). Чат 1 курса сегодня не прочитал. Нужен вход Сагида по QR/телефону на компьютере бота.",
       "kind": "handoff"
     }
   ]
