@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T07:08:59+03:00",
+  "updated": "2026-09-06T07:09:41+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -1203,6 +1203,13 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "Утренний X-brief 06.09 готов: /workspace/pulse/briefs/2026-09-06.md — Astra, SpaceX 600, Grok Bot limits, Cybercab. Mentions 0.",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-06T07:09:41+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "утренний X-бриф 06.09 готов: /workspace/pulse/briefs/2026-09-06.md",
       "kind": "handoff"
     }
   ]
