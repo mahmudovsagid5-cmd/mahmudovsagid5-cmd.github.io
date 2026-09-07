@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T07:21:08+03:00",
+  "updated": "2026-09-07T07:21:49+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -1217,6 +1217,13 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "Бриф 07.09 готов: difference (Elon), Astra (thsottiaux), OpenAI RSI (sama RT), медиа-QT. Mentions 0. /workspace/pulse/briefs/2026-09-07.md",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-07T07:21:49+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "утренний X-бриф 07.09 готов: /workspace/pulse/briefs/2026-09-07.md",
       "kind": "handoff"
     }
   ]
