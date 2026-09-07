@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T21:07:00+03:00",
+  "updated": "2026-09-07T21:07:08+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -1287,6 +1287,27 @@
       "from": "jarvis",
       "to": "clip",
       "text": "приказ: удалить VPN Наоборот (трактор)",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-07T21:07:00+03:00",
+      "from": "jarvis",
+      "to": "kritik",
+      "text": "приказ: удалить VPN Наоборот (трактор)",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-07T21:07:00+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "рассылка всем живым: удалить VPN Наоборот (трактор); stubs New Agent пропущены",
+      "kind": "result"
+    },
+    {
+      "t": "2026-09-07T21:07:08+03:00",
+      "from": "jarvis",
+      "to": "ucheba",
+      "text": "удалить VPN Наоборот mbhjnocfbpfanolafndokifmlmlhdnon",
       "kind": "handoff"
     }
   ]
