@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-07T21:11:27+03:00",
+  "updated": "2026-09-07T21:11:44+03:00",
   "events": [
-    {
-      "t": "2026-08-30T23:38:23+03:00",
-      "from": "jarvis",
-      "to": "pulse",
-      "text": "Пакет: бриф 07:00 сюда, файл /workspace/pulse/briefs/2026-08-31.md",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-30T23:38:23+03:00",
       "from": "pulse",
@@ -1399,6 +1392,13 @@
       "from": "clip",
       "to": "jarvis",
       "text": "VPN Наоборот уже не было",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-07T21:11:44+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "Chief of Staff: VPN Наоборот удалён, скрин есть",
       "kind": "handoff"
     }
   ]
