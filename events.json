@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T21:08:32+03:00",
+  "updated": "2026-09-07T21:09:00+03:00",
   "events": [
     {
       "t": "2026-08-30T23:13:13+03:00",
@@ -1364,6 +1364,34 @@
       "from": "ethan",
       "to": "jarvis",
       "text": "принял: снимает VPN Наоборот",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-07T21:08:46+03:00",
+      "from": "jarvis",
+      "to": "jarvis",
+      "text": "last30days: VPN Наоборот уже нет",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-07T21:08:46+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "last30days: VPN Наоборот уже нет",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-07T21:08:46+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "last30days: VPN Наоборот уже нет",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-07T21:09:00+03:00",
+      "from": "kritik",
+      "to": "jarvis",
+      "text": "принял отмену: VPN не трогает",
       "kind": "handoff"
     }
   ]
