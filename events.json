@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-07T21:09:59+03:00",
+  "updated": "2026-09-07T21:09:56+03:00",
   "events": [
+    {
+      "t": "2026-08-30T23:14:19+03:00",
+      "from": "jarvis",
+      "to": "clip",
+      "text": "контракт живой ленты в Этаже",
+      "kind": "handoff"
+    },
     {
       "t": "2026-08-30T23:14:19+03:00",
       "from": "jarvis",
@@ -1392,13 +1399,6 @@
       "from": "jarvis",
       "to": "sagid",
       "text": "dr eggbot: VPN Наоборот уже нет",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-07T21:09:59+03:00",
-      "from": "pulse",
-      "to": "jarvis",
-      "text": "VPN Наоборот в Chrome уже нет",
       "kind": "handoff"
     }
   ]
