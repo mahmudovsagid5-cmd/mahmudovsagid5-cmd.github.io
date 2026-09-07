@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-07T21:11:08+03:00",
+  "updated": "2026-09-07T21:11:10+03:00",
   "events": [
-    {
-      "t": "2026-08-30T23:38:17+03:00",
-      "from": "jarvis",
-      "to": "pulse",
-      "text": "пакет: бриф 07:00 31.08 сюда Jarvis, файл briefs/2026-08-31.md",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-30T23:38:17+03:00",
       "from": "jarvis",
@@ -1399,6 +1392,13 @@
       "from": "jarvis",
       "to": "sagid",
       "text": "Be Happier: VPN Наоборот удалён, скрин есть",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-07T21:11:10+03:00",
+      "from": "ethan",
+      "to": "jarvis",
+      "text": "VPN Наоборот удалён",
       "kind": "handoff"
     }
   ]
