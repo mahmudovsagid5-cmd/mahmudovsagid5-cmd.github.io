@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-08T07:13:52+03:00",
+  "updated": "2026-09-08T08:03:22+03:00",
   "events": [
-    {
-      "t": "2026-08-31T00:25:43+03:00",
-      "from": "jarvis",
-      "to": "sagid",
-      "text": "полный тест: трубы ок, тестовый ping на этаж, работу не запускал",
-      "kind": "result"
-    },
     {
       "t": "2026-08-31T00:25:45+03:00",
       "from": "jarvis",
@@ -1400,6 +1393,13 @@
       "to": "jarvis",
       "text": "утренний X-бриф 08.09 готов: /workspace/pulse/briefs/2026-09-08.md",
       "kind": "handoff"
+    },
+    {
+      "t": "2026-09-08T08:03:22+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "утро 08.09: почта 0; бриф Pulse есть (mentions 0, Astra/Elon/Grok Build)",
+      "kind": "result"
     }
   ]
 }
