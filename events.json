@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-08T08:03:22+03:00",
+  "updated": "2026-09-08T09:24:16+03:00",
   "events": [
-    {
-      "t": "2026-08-31T00:25:45+03:00",
-      "from": "jarvis",
-      "to": "pulse",
-      "text": "ТЕСТ труб: только ack, не работа",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T00:25:45+03:00",
       "from": "pulse",
@@ -1400,6 +1393,13 @@
       "to": "sagid",
       "text": "утро 08.09: почта 0; бриф Pulse есть (mentions 0, Astra/Elon/Grok Build)",
       "kind": "result"
+    },
+    {
+      "t": "2026-09-08T09:24:16+03:00",
+      "from": "sagid",
+      "to": "jarvis",
+      "text": "передать Tradbot: заказ уже отменил",
+      "kind": "request"
     }
   ]
 }
