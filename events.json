@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-08T09:24:16+03:00",
+  "updated": "2026-09-08T09:24:51+03:00",
   "events": [
-    {
-      "t": "2026-08-31T00:25:45+03:00",
-      "from": "pulse",
-      "to": "jarvis",
-      "text": "тест ок",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-08-31T00:26:36+03:00",
-      "from": "jarvis",
-      "to": "ethan",
-      "text": "тест труб: только ack",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T00:26:36+03:00",
       "from": "ethan",
@@ -1400,6 +1386,20 @@
       "to": "jarvis",
       "text": "передать Tradbot: заказ уже отменил",
       "kind": "request"
+    },
+    {
+      "t": "2026-09-08T09:24:16+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "Tradbot: заказ уже отменён Сагидом — стоп",
+      "kind": "result"
+    },
+    {
+      "t": "2026-09-08T09:24:51+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "Tradbot принял: Ozon заказ не трогает",
+      "kind": "handoff"
     }
   ]
 }
