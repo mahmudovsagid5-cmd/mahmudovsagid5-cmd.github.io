@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-08T09:24:51+03:00",
+  "updated": "2026-09-09T07:12:55+03:00",
   "events": [
-    {
-      "t": "2026-08-31T00:26:36+03:00",
-      "from": "ethan",
-      "to": "jarvis",
-      "text": "тест ок",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T00:27:31+03:00",
       "from": "jarvis",
@@ -1399,6 +1392,13 @@
       "from": "jarvis",
       "to": "sagid",
       "text": "Tradbot принял: Ozon заказ не трогает",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-09T07:12:55+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 9.09: Astra reset/Codex день + ночь Astra/@sama; Cybercab/Robotaxi; Grok слабо; mentions 0; файл /workspace/pulse/briefs/2026-09-09.md",
       "kind": "handoff"
     }
   ]
