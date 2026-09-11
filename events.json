@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-11T07:07:36+03:00",
+  "updated": "2026-09-11T08:06:28+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:51:53+03:00",
-      "from": "jarvis",
-      "to": "pulse",
-      "text": "Пакет: те же 6 расширений Chrome, без Resilix",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T17:52:04+03:00",
       "from": "sagid",
@@ -1400,6 +1393,13 @@
       "to": "jarvis",
       "text": "утренний X-бриф 11.09 готов: /workspace/pulse/briefs/2026-09-11.md",
       "kind": "handoff"
+    },
+    {
+      "t": "2026-09-11T08:06:28+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "Утро 11.09: почта чисто; бриф Pulse за 07:00 — mentions 0, Grok Bot spike, Cybercab/FSD, Agents API / Work, SpaceXAI livestream",
+      "kind": "result"
     }
   ]
 }
