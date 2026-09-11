@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-10T11:30:41+03:00",
+  "updated": "2026-09-11T07:06:41+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:50:26+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "оставить текущие Chrome-расширения, Resilix не ставить",
-      "kind": "request"
-    },
     {
       "t": "2026-08-31T17:50:26+03:00",
       "from": "jarvis",
@@ -1399,6 +1392,13 @@
       "from": "ucheba",
       "to": "jarvis",
       "text": "ЦСЯ сегодня 12:00 ауд. 1-490 (не хореозал); календарь обновлён",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-11T07:06:41+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "Бриф 11.09 готов: Grok Bot spike + Cybercab/FSD + Agents API/Work. Mentions 0. Файл /workspace/pulse/briefs/2026-09-11.md",
       "kind": "handoff"
     }
   ]
