@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-12T07:13:43+03:00",
+  "updated": "2026-09-12T07:14:35+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:52:04+03:00",
-      "from": "jarvis",
-      "to": "pulse",
-      "text": "поставить 6 Chrome-расширений, Resilix не ставить, отчитаться Jarvis",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T17:52:04+03:00",
       "from": "jarvis",
@@ -1399,6 +1392,13 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "Бриф 12.09 готов: /workspace/pulse/briefs/2026-09-12.md — Mentions 0. День: Astra Pro-pause + Codex-Spark + Grok Bot (sales/phone/Neuralink) + Cybercab Japan. Ночь: Astra quality reset + Sites/Git AI. Grok Bot counts spike.",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-12T07:14:35+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "утренний X-бриф 12.09 готов: /workspace/pulse/briefs/2026-09-12.md",
       "kind": "handoff"
     }
   ]
