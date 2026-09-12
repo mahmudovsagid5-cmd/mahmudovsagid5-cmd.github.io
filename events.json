@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-11T08:06:28+03:00",
+  "updated": "2026-09-12T07:13:43+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:52:04+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "раздать установку Chrome-расширений всем ботам кроме Критика и Морфеуса",
-      "kind": "request"
-    },
     {
       "t": "2026-08-31T17:52:04+03:00",
       "from": "jarvis",
@@ -1400,6 +1393,13 @@
       "to": "sagid",
       "text": "Утро 11.09: почта чисто; бриф Pulse за 07:00 — mentions 0, Grok Bot spike, Cybercab/FSD, Agents API / Work, SpaceXAI livestream",
       "kind": "result"
+    },
+    {
+      "t": "2026-09-12T07:13:43+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "Бриф 12.09 готов: /workspace/pulse/briefs/2026-09-12.md — Mentions 0. День: Astra Pro-pause + Codex-Spark + Grok Bot (sales/phone/Neuralink) + Cybercab Japan. Ночь: Astra quality reset + Sites/Git AI. Grok Bot counts spike.",
+      "kind": "handoff"
     }
   ]
 }
