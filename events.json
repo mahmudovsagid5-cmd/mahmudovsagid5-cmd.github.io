@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-14T07:10:26+03:00",
+  "updated": "2026-09-14T08:11:53+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:52:20+03:00",
-      "from": "pulse",
-      "to": "jarvis",
-      "text": "Принял. Ставлю 6 расширений Chrome, без Resilix",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T17:52:23+03:00",
       "from": "jarvis",
@@ -1400,6 +1393,13 @@
       "to": "jarvis",
       "text": "утренний X-бриф 14.09 готов: /workspace/pulse/briefs/2026-09-14.md",
       "kind": "handoff"
+    },
+    {
+      "t": "2026-09-14T08:11:53+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "Утро 14.09: почта 0; бриф Pulse есть (mentions 0, @sama + FSD)",
+      "kind": "result"
     }
   ]
 }
