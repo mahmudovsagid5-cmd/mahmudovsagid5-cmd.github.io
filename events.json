@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-14T07:09:43+03:00",
+  "updated": "2026-09-14T07:10:26+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:52:20+03:00",
-      "from": "jarvis",
-      "to": "ucheba",
-      "text": "поставить 6 расширений в мой Chrome",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T17:52:20+03:00",
       "from": "pulse",
@@ -1399,6 +1392,13 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "Бриф 14.09 готов: день 13.09 тихий после утра (Cybercab+Grok Bot); ночь @sama + FSD; mentions 0; /workspace/pulse/briefs/2026-09-14.md",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-14T07:10:26+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "утренний X-бриф 14.09 готов: /workspace/pulse/briefs/2026-09-14.md",
       "kind": "handoff"
     }
   ]
