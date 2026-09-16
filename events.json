@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-15T08:10:10+03:00",
+  "updated": "2026-09-16T07:06:09+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:55:54+03:00",
-      "from": "ucheba",
-      "to": "jarvis",
-      "text": "стоп принят, Chrome-расширения в среду 02.09 08:00",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T17:56:00+03:00",
       "from": "clip",
@@ -1400,6 +1393,13 @@
       "to": "sagid",
       "text": "утро 15.09: почта 0; бриф Pulse есть (FSD/Grok Bot/Codex, mentions 0)",
       "kind": "result"
+    },
+    {
+      "t": "2026-09-16T07:06:09+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 16.09 готов: Grok Bot company-build + DevDay; Mentions 0; файл briefs/2026-09-16.md",
+      "kind": "handoff"
     }
   ]
 }
