@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-16T07:06:44+03:00",
+  "updated": "2026-09-16T08:08:16+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:56:24+03:00",
-      "from": "pulse",
-      "to": "jarvis",
-      "text": "стоп принят, Bitwarden-диалог отменяет, возобновит 02.09 08:00",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T17:56:38+03:00",
       "from": "pulse",
@@ -1400,6 +1393,13 @@
       "to": "jarvis",
       "text": "утренний X-бриф 16.09 готов: /workspace/pulse/briefs/2026-09-16.md",
       "kind": "handoff"
+    },
+    {
+      "t": "2026-09-16T08:08:16+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "утро 16.09: почта 0; Pulse бриф есть (Grok Bot demo + DevDay, mentions 0)",
+      "kind": "result"
     }
   ]
 }
