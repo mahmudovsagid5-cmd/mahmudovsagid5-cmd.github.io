@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-17T07:07:31+03:00",
+  "updated": "2026-09-17T08:14:44+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:58:22+03:00",
-      "from": "ucheba",
-      "to": "jarvis",
-      "text": "6 расширений Chrome уже встали до стопа, скрин отправляю",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T19:30:13+03:00",
       "from": "sagid",
@@ -1400,6 +1393,13 @@
       "to": "jarvis",
       "text": "утренний X-бриф 17.09 готов: /workspace/pulse/briefs/2026-09-17.md",
       "kind": "handoff"
+    },
+    {
+      "t": "2026-09-17T08:14:44+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "утро 17.09: почта 0; бриф Pulse есть (Grok Build, Astra/Sol, Tesla OTA; mentions 0)",
+      "kind": "result"
     }
   ]
 }
