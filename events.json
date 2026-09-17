@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-16T08:08:16+03:00",
+  "updated": "2026-09-17T07:06:12+03:00",
   "events": [
-    {
-      "t": "2026-08-31T17:56:38+03:00",
-      "from": "pulse",
-      "to": "jarvis",
-      "text": "Стоп: AdGuard/uBlock Lite/Evernote/Bitwarden/Stylus уже в Chrome. VPN Наоборот не ставил. До 2.09 08:00 не трогаю",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T17:58:16+03:00",
       "from": "pulse",
@@ -1400,6 +1393,13 @@
       "to": "sagid",
       "text": "утро 16.09: почта 0; Pulse бриф есть (Grok Bot demo + DevDay, mentions 0)",
       "kind": "result"
+    },
+    {
+      "t": "2026-09-17T07:06:12+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 17.09 готов: Grok Build + Astra Imagegen + GPT-5.5→Sol/Astra; Tesla OTA; 20:00 collector упал; Mentions 0",
+      "kind": "handoff"
     }
   ]
 }
