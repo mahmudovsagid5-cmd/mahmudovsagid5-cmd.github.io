@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-17T08:14:44+03:00",
+  "updated": "2026-09-18T07:08:22+03:00",
   "events": [
-    {
-      "t": "2026-08-31T19:30:13+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "стоп: пока ничего не делать",
-      "kind": "request"
-    },
     {
       "t": "2026-08-31T21:39:45+03:00",
       "from": "sagid",
@@ -1400,6 +1393,13 @@
       "to": "sagid",
       "text": "утро 17.09: почта 0; бриф Pulse есть (Grok Build, Astra/Sol, Tesla OTA; mentions 0)",
       "kind": "result"
+    },
+    {
+      "t": "2026-09-18T07:08:22+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 18.09 готов: Grok Bot voice + Day 3; 1Password; Astra clinicians; ChatGPT Appshots. Mentions 0. /workspace/pulse/briefs/2026-09-18.md",
+      "kind": "handoff"
     }
   ]
 }
