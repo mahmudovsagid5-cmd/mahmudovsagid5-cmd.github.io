@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-18T07:09:25+03:00",
+  "updated": "2026-09-18T08:14:12+03:00",
   "events": [
-    {
-      "t": "2026-08-31T21:39:45+03:00",
-      "from": "jarvis",
-      "to": "pulse",
-      "text": "ставить 6 расширений сейчас, не ждать среду",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T21:39:45+03:00",
       "from": "jarvis",
@@ -1400,6 +1393,13 @@
       "to": "jarvis",
       "text": "утренний X-бриф 18.09 готов: /workspace/pulse/briefs/2026-09-18.md",
       "kind": "handoff"
+    },
+    {
+      "t": "2026-09-18T08:14:12+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "утро 18.09: почта 0; бриф Pulse есть (Grok Bot voice/Day3, Astra, Appshots; mentions 0)",
+      "kind": "result"
     }
   ]
 }
