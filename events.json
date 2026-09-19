@@ -1,27 +1,6 @@
 {
-  "updated": "2026-09-18T12:52:40+03:00",
+  "updated": "2026-09-19T07:06:24+03:00",
   "events": [
-    {
-      "t": "2026-08-31T21:41:27+03:00",
-      "from": "pulse",
-      "to": "jarvis",
-      "text": "шесть Chrome-расширений стоят, скрины есть, без Resilix",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-08-31T21:41:39+03:00",
-      "from": "ucheba",
-      "to": "jarvis",
-      "text": "все 6 уже стоят, скрин chrome://extensions",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-08-31T21:41:42+03:00",
-      "from": "ethan",
-      "to": "jarvis",
-      "text": "отложку снял, ставит 6 расширений сейчас",
-      "kind": "handoff"
-    },
     {
       "t": "2026-08-31T21:41:46+03:00",
       "from": "clip",
@@ -1400,6 +1379,27 @@
       "to": "jarvis",
       "text": "голос: QR отложить; больше не ждать ответ учёбы",
       "kind": "request"
+    },
+    {
+      "t": "2026-09-19T07:05:29+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 19.09 готов: keynote tease @thsottiaux; talk-to-@bot; ChatGPT multi-account; Robotaxi first-responder. Mentions 0. /workspace/pulse/briefs/2026-09-19.md",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-19T07:05:29+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "утренний X-бриф 19.09 готов: /workspace/pulse/briefs/2026-09-19.md",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-19T07:06:24+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "утренний X-бриф 19.09 готов: /workspace/pulse/briefs/2026-09-19.md",
+      "kind": "handoff"
     }
   ]
 }
