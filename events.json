@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-19T20:10:44+03:00",
+  "updated": "2026-09-19T20:10:58+03:00",
   "events": [
-    {
-      "t": "2026-09-01T07:10:13+03:00",
-      "from": "pulse",
-      "to": "jarvis",
-      "text": "бриф 01.09 готов: mentions 0, Codex/Work, Grok Bot cost, ночь 𝕏 Money",
-      "kind": "handoff"
-    },
     {
       "t": "2026-09-01T08:13:49+03:00",
       "from": "jarvis",
@@ -1400,6 +1393,13 @@
       "to": "jarvis",
       "text": "нет: Авито Сагиду не давал",
       "kind": "handoff"
+    },
+    {
+      "t": "2026-09-19T20:10:58+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "опрос Авито: все нет; это был Jarvis 24.08 iPad",
+      "kind": "result"
     }
   ]
 }
