@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-19T20:10:58+03:00",
+  "updated": "2026-09-20T07:12:50+03:00",
   "events": [
-    {
-      "t": "2026-09-01T08:13:49+03:00",
-      "from": "jarvis",
-      "to": "sagid",
-      "text": "утро 1.09: почта 0; бриф Pulse есть (Codex/Grok, меншены 0)",
-      "kind": "result"
-    },
-    {
-      "t": "2026-09-01T10:57:20+03:00",
-      "from": "sagid",
-      "to": "jarvis",
-      "text": "добавить в профиль: без апрува не слать наружу, не публиковать, не удалять, не покупать, не трогать прод",
-      "kind": "request"
-    },
     {
       "t": "2026-09-01T11:14:12+03:00",
       "from": "jarvis",
@@ -1400,6 +1386,20 @@
       "to": "sagid",
       "text": "опрос Авито: все нет; это был Jarvis 24.08 iPad",
       "kind": "result"
+    },
+    {
+      "t": "2026-09-20T07:12:50+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 20.09 готов: день тонкий — keynote @thsottiaux уже был; overnight без новых watch_topic. Mentions 0. /workspace/pulse/briefs/2026-09-20.md",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-20T07:12:50+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "утренний X-бриф 20.09 готов: /workspace/pulse/briefs/2026-09-20.md",
+      "kind": "handoff"
     }
   ]
 }
