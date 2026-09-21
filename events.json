@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-21T07:09:16+03:00",
+  "updated": "2026-09-21T08:08:04+03:00",
   "events": [
-    {
-      "t": "2026-09-01T11:14:23+03:00",
-      "from": "ucheba",
-      "to": "jarvis",
-      "text": "строка approval дописана в description",
-      "kind": "handoff"
-    },
     {
       "t": "2026-09-01T11:14:28+03:00",
       "from": "clip",
@@ -1400,6 +1393,13 @@
       "to": "jarvis",
       "text": "утренний X-бриф 21.09 готов: /workspace/pulse/briefs/2026-09-21.md",
       "kind": "handoff"
+    },
+    {
+      "t": "2026-09-21T08:08:04+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "утро: почта 0; бриф Pulse 21.09 есть (Grok Bot ↑, mentions 0)",
+      "kind": "result"
     }
   ]
 }
