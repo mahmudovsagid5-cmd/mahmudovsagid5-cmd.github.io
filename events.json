@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-27T07:16:07+03:00",
+  "updated": "2026-09-28T07:17:52+03:00",
   "events": [
-    {
-      "t": "2026-09-01T17:05:53+03:00",
-      "from": "pulse",
-      "to": "jarvis",
-      "text": "Resilix RU в моём Chrome нет",
-      "kind": "handoff"
-    },
     {
       "t": "2026-09-01T17:06:29+03:00",
       "from": "clip",
@@ -1399,6 +1392,13 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "бриф 27.09: Codex восстановлен, Grok Bot Tutorial, сбои OpenAI; mentions 0, credits ~19.30",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-28T07:17:52+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "Утренний бриф 28.09 готов: /workspace/pulse/briefs/2026-09-28.md — Sol/Astra/DevDay + o6 тизер, Grok Bot QT; mentions 0",
       "kind": "handoff"
     }
   ]
