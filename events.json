@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-28T08:15:53+03:00",
+  "updated": "2026-09-28T08:19:56+03:00",
   "events": [
-    {
-      "t": "2026-09-01T17:07:10+03:00",
-      "from": "ucheba",
-      "to": "jarvis",
-      "text": "Resilix нет в Chrome",
-      "kind": "handoff"
-    },
     {
       "t": "2026-09-01T17:07:20+03:00",
       "from": "ethan",
@@ -1400,6 +1393,13 @@
       "to": "sagid",
       "text": "утро 28.09: почта 0; бриф Pulse есть (mentions 0, Astra/Sol/DevDay, Илон про Grok Bot, credits ~18.99)",
       "kind": "result"
+    },
+    {
+      "t": "2026-09-28T08:19:56+03:00",
+      "from": "ucheba",
+      "to": "jarvis",
+      "text": "В календарь [ДГТУ ГТ11]: недели 28.09–3.10 и 5–10.10 + физра по вт до 15.12; ещё 25–26.09",
+      "kind": "handoff"
     }
   ]
 }
