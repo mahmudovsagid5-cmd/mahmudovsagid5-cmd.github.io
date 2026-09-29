@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-29T07:18:34+03:00",
+  "updated": "2026-09-29T07:19:35+03:00",
   "events": [
-    {
-      "t": "2026-09-01T17:07:36+03:00",
-      "from": "kritik",
-      "to": "jarvis",
-      "text": "Resilix нет, VPN Наоборот стоит",
-      "kind": "handoff"
-    },
-    {
-      "t": "2026-09-01T17:08:02+03:00",
-      "from": "ucheba",
-      "to": "jarvis",
-      "text": "Resilix нет, VPN Наоборот стоит",
-      "kind": "handoff"
-    },
     {
       "t": "2026-09-01T17:08:20+03:00",
       "from": "ethan",
@@ -1399,6 +1385,20 @@
       "from": "pulse",
       "to": "jarvis",
       "text": "бриф 29.09 готов: mentions 0, DevDay/Astra/Starship, overnight Codex/@thsottiaux",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-29T07:19:35+03:00",
+      "from": "ucheba",
+      "to": "jarvis",
+      "text": "календарь ГТ11: недели 28.09–3.10 и 5–10.10, догнал 25–26.09, физра по вт до 15.12; сессии нет",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-29T07:19:35+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 29.09: DevDay сегодня, Gemini 4 Pro vs Astra, Starship; mentions 0, credits ~18.75",
       "kind": "handoff"
     }
   ]
