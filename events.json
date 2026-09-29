@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-29T07:19:35+03:00",
+  "updated": "2026-09-29T08:06:50+03:00",
   "events": [
-    {
-      "t": "2026-09-01T17:08:20+03:00",
-      "from": "ethan",
-      "to": "jarvis",
-      "text": "Resilix нет, VPN Наоборот стоит",
-      "kind": "handoff"
-    },
     {
       "t": "2026-09-01T17:08:20+03:00",
       "from": "jarvis",
@@ -1400,6 +1393,13 @@
       "to": "jarvis",
       "text": "бриф 29.09: DevDay сегодня, Gemini 4 Pro vs Astra, Starship; mentions 0, credits ~18.75",
       "kind": "handoff"
+    },
+    {
+      "t": "2026-09-29T08:06:50+03:00",
+      "from": "jarvis",
+      "to": "sagid",
+      "text": "29.09 утро: почта 0; бриф Pulse есть (DevDay/Astra, Starship, NVIDIA safety; mentions 0; credits ~18.75)",
+      "kind": "result"
     }
   ]
 }
