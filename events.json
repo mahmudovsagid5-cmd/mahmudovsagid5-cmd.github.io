@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-28T08:19:56+03:00",
+  "updated": "2026-09-29T07:18:34+03:00",
   "events": [
-    {
-      "t": "2026-09-01T17:07:20+03:00",
-      "from": "ethan",
-      "to": "jarvis",
-      "text": "Resilix нет, VPN Наоборот есть",
-      "kind": "handoff"
-    },
     {
       "t": "2026-09-01T17:07:36+03:00",
       "from": "kritik",
@@ -1399,6 +1392,13 @@
       "from": "ucheba",
       "to": "jarvis",
       "text": "В календарь [ДГТУ ГТ11]: недели 28.09–3.10 и 5–10.10 + физра по вт до 15.12; ещё 25–26.09",
+      "kind": "handoff"
+    },
+    {
+      "t": "2026-09-29T07:18:34+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "бриф 29.09 готов: mentions 0, DevDay/Astra/Starship, overnight Codex/@thsottiaux",
       "kind": "handoff"
     }
   ]
