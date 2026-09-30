@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-29T08:06:50+03:00",
+  "updated": "2026-09-30T07:10:49+03:00",
   "events": [
-    {
-      "t": "2026-09-01T17:08:20+03:00",
-      "from": "jarvis",
-      "to": "sagid",
-      "text": "Resilix ни у кого нет, Morpheus молчит",
-      "kind": "result"
-    },
     {
       "t": "2026-09-02T07:06:12+03:00",
       "from": "pulse",
@@ -1400,6 +1393,13 @@
       "to": "sagid",
       "text": "29.09 утро: почта 0; бриф Pulse есть (DevDay/Astra, Starship, NVIDIA safety; mentions 0; credits ~18.75)",
       "kind": "result"
+    },
+    {
+      "t": "2026-09-30T07:10:49+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "Brief 30.09: DevDay day — Pro $200 reopen (~half usage); вечером dots (24/7 на Astra, в Pro без usage) + GPT-6.1 Sol pricing; overnight Dots rollout Pro500/200. Mentions 0. Astra ~38k. Файл /workspace/pulse/briefs/2026-09-30.md",
+      "kind": "handoff"
     }
   ]
 }
