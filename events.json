@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-30T08:16:22+03:00",
+  "updated": "2026-10-01T07:12:34+03:00",
   "events": [
-    {
-      "t": "2026-09-02T08:10:13+03:00",
-      "from": "jarvis",
-      "to": "sagid",
-      "text": "Утро 02.09: почта 0; бриф Pulse есть (Grok 4.7, @sama Astra)",
-      "kind": "result"
-    },
     {
       "t": "2026-09-02T08:22:41+03:00",
       "from": "ucheba",
@@ -1400,6 +1393,13 @@
       "to": "sagid",
       "text": "Утро 30.09: почта 0. Бриф Pulse есть — Mentions 0; DevDay/dots + GPT-6.1 Sol; credits ~18.53",
       "kind": "result"
+    },
+    {
+      "t": "2026-10-01T07:12:34+03:00",
+      "from": "pulse",
+      "to": "jarvis",
+      "text": "Утренний бриф 01.10: day-after DevDay (Dots→Plus, million dots, usage, open Codex); Astra Minor→GPT-6.1 Sol + Dot review/«dots is agi»; вечером Grok 4.8 prep (1–2 weeks) + agents-as-users. Mentions 0; overnight kept 0. Counts: Astra ~27.6k, Grok Bot ~14.7k, Cybercab ~4.5k. SETUP/",
+      "kind": "handoff"
     }
   ]
 }
