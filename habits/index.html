@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Трекер привычек 🌸</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff0f5;--card:#fff;--p1:#ffd1e1;--p2:#ff8fb8;--p3:#e8558f;--t:#5a2a40}
+*{box-sizing:border-box}body{margin:0;font-family:Nunito,system-ui,sans-serif;background:linear-gradient(160deg,#ffe4ef,#fff7fa);color:var(--t);min-height:100vh}
+.w{max-width:560px;margin:0 auto;padding:20px 14px 40px}h1{text-align:center;margin:8px 0 4px;color:var(--p3)}
+.sub{text-align:center;opacity:.7;margin-bottom:16px}
+.card{background:var(--card);border-radius:22px;padding:16px;box-shadow:0 6px 20px #ff8fb833;margin-bottom:14px}
+.prog .bar{height:14px;background:var(--p1);border-radius:9px;overflow:hidden;margin-top:8px}.prog .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--p2),var(--p3));transition:.4s}
+form{display:flex;gap:8px;flex-wrap:wrap}input{border:2px solid var(--p1);border-radius:14px;padding:10px;font:inherit;color:var(--t);outline:none}input:focus{border-color:var(--p2)}
+#emoji{width:64px;text-align:center}#name{flex:1;min-width:140px}
+button{font:inherit;cursor:pointer;border:none;border-radius:14px}.add{background:var(--p3);color:#fff;padding:10px 16px;font-weight:800}
+.h-top{display:flex;align-items:center;gap:10px}.em{font-size:28px}.nm{flex:1;font-weight:800;font-size:18px;word-break:break-word}
+.del{background:none;font-size:18px;opacity:.5}.del:hover{opacity:1}
+.today{background:var(--p1);color:var(--p3);padding:8px 12px;font-weight:800}.today.on{background:var(--p3);color:#fff}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin:12px 0 8px}
+.d{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:12px;background:none}
+.d b{width:34px;height:34px;border-radius:50%;background:#fff5f9;border:2px solid var(--p1);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--t)}
+.d.on b{background:var(--p2);border-color:var(--p2);color:#fff}.d.t b{box-shadow:0 0 0 3px #e8558f55}
+.st{display:flex;gap:16px;font-size:14px}.empty{text-align:center;padding:30px 10px;opacity:.8}.empty div{font-size:48px}
+</style></head><body><div class="w">
+<h1>🌸 Мои привычки</h1><div class="sub" id="date"></div>
+<div class="card prog"><b>Сегодня выполнено: <span id="pc">0 из 0</span></b><div class="bar"><i id="pb" style="width:0"></i></div></div>
+<div class="card"><form id="f"><input id="emoji" maxlength="4" value="💖" aria-label="Эмодзи"><input id="name" placeholder="Новая привычка…" maxlength="60" required><button class="add">Добавить</button></form></div>
+<div id="list"></div></div>
+<script>
+const K='pinkHabits';let H=JSON.parse(localStorage.getItem(K)||'[]');
+const save=()=>localStorage.setItem(K,JSON.stringify(H));
+const key=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const ago=n=>{const d=new Date();d.setHours(12,0,0,0);d.setDate(d.getDate()-n);return d};
+const TODAY=key(ago(0));const DN=['Вс','Пн','Вт','Ср','Чт','Пт','Сб'];
+function streaks(h){const s=new Set(h.done);let cur=0,i=s.has(TODAY)?0:1;while(s.has(key(ago(i)))){cur++;i++}
+let best=0,run=0,prev=null;[...s].sort().forEach(k=>{const d=new Date(k+'T12:00');run=(prev&&Math.round((d-prev)/864e5)===1)?run+1:1;best=Math.max(best,run);prev=d});return[cur,best]}
+function toggle(id,k){const h=H.find(x=>x.id===id);const i=h.done.indexOf(k);i<0?h.done.push(k):h.done.splice(i,1);save();render()}
+function esc(s){return s.replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';')}
+function render(){document.getElementById('date').textContent=new Date().toLocaleDateString('ru-RU',{weekday:'long',day:'numeric',month:'long'});
+const L=document.getElementById('list');const n=H.filter(h=>h.done.includes(TODAY)).length;
+document.getElementById('pc').textContent=n+' из '+H.length;document.getElementById('pb').style.width=(H.length?n/H.length*100:0)+'%';
+if(!H.length){L.innerHTML='<div class="card empty"><div>🌷</div>Пока нет привычек.<br>Добавьте первую — и начнём!</div>';return}
+L.innerHTML=H.map(h=>{const[c,b]=streaks(h);const on=h.done.includes(TODAY);let w='';
+for(let i=6;i>=0;i--){const d=ago(i),k=key(d);w+=`<button class="d${h.done.includes(k)?' on':''}${i===0?' t':''}" data-id="${h.id}" data-k="${k}" title="${k}">${DN[d.getDay()]}<b>${d.getDate()}</b></button>`}
+return `<div class="card"><div class="h-top"><span class="em">${esc(h.emoji)}</span><span class="nm">${esc(h.name)}</span><button class="today${on?' on':''}" data-id="${h.id}" data-k="${TODAY}">${on?'✓ Готово':'Отметить'}</button><button class="del" data-del="${h.id}" title="Удалить">🗑️</button></div><div class="week">${w}</div><div class="st"><span>🔥 Серия: <b>${c}</b> дн.</span><span>🏆 Рекорд: <b>${b}</b> дн.</span></div></div>`}).join('')}
+document.getElementById('list').onclick=e=>{const t=e.target.closest('button');if(!t)return;
+if(t.dataset.del){const h=H.find(x=>x.id===t.dataset.del);if(confirm('Удалить привычку «'+h.name+'»?')){H=H.filter(x=>x!==h);save();render()}}
+else if(t.dataset.k)toggle(t.dataset.id,t.dataset.k)};
+document.getElementById('f').onsubmit=e=>{e.preventDefault();const nm=document.getElementById('name'),em=document.getElementById('emoji');
+if(!nm.value.trim())return;H.push({id:Date.now().toString(36),name:nm.value.trim(),emoji:em.value.trim()||'💖',done:[]});save();nm.value='';render()};
+render();
+</script></body></html>
